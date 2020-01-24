@@ -1,0 +1,23 @@
+.links {
+  padding-top: 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: lightgray;
+}
+.links h1 {
+  font-size: 5em;
+}
+.links .navlist {
+  display: flex;
+  justify-content: space-between;
+}
+.links .navlist li {
+  font-size: 1.8em;
+  padding: 1em 1em;
+}
+.links .navlist li a {
+  color: black;
+  text-decoration: none;
+}
